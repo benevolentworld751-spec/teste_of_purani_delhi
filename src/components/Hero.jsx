@@ -1,9 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import '/src/index.css';
+import backgroundImage from '/src/assets/delhi-street.jpg';
 
 const Hero = () => {
   return (
-    <section className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('/src/assets/delhi-street.jpg')" }}>
+    <section className="relative h-screen bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
       {/* Overlay to darken background image and make text readable */}
       <div className="absolute inset-0 bg-black opacity-60"></div>
 
