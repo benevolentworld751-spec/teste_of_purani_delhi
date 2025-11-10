@@ -1,47 +1,53 @@
 import React from 'react';
  import { motion } from 'framer-motion';
+ import NiharImg from '/src/assets/nihari.jpeg';
+ import SeekhImg from '/src/assets/seekh-kebab.jpg';
+  import MottonImg from '/src/assets/mutton-korma.jpg';
+  import ButterCimg from '/src/assets/butter-chicken.jpg';
+  import TandooriRotiImg from '/src/assets/tandoori-roti.jpg';
+  import BiryaniImg from '/src/assets/biryani.jpg';
 
 const dishes = [
   {
     name: "Nihari",
     description: "A timeless classic. Slow-cooked lamb infused with aromatic spices, dish for royalty.",
     price: "₹650",
-    image: "/src/assets/nihari.jpeg", // Replace with actual image paths
+    image: NiharImg, // Replace with actual image paths
     isSpecial: true,
   },
   {
     name: "Seekh Kebabs",
     description: "Juicy, minced meat grilled to perfection, full of flavor.",
     price: "₹420",
-    image: "/src/assets/seekh-kebab.jpg",
+    image: SeekhImg,
     isSpecial: false,
   },
   {
     name: "Mutton Korma",
     description: "Fragrant, deeply satisfying mutton curry, a regal delight.",
     price: "₹580",
-    image: "/src/assets/mutton-korma.jpg",
+    image: MottonImg,
     isSpecial: false,
   },
   {
     name: "Butter Chicken",
     description: "Creamy tomato-based chicken curry, rich and flavorful.",
     price: "₹520",
-    image: "/src/assets/butter-chicken.jpg",
+    image: ButterCimg,
     isSpecial: false,
   },
   {
     name: "Tandoori Roti",
     description: "Traditional Indian flatbread baked in a tandoor.",
     price: "₹80",
-    image: "/src/assets/tandoori-roti.jpg",
+    image: TandooriRotiImg,
     isSpecial: false,
   },
   {
     name: "Biryani",
     description: "Fragrant basmati rice cooked with tender meat and spices.",
     price: "₹990",
-    image: "/src/assets/biryani.jpg",
+    image: BiryaniImg,
     isSpecial: false,
   },
   // Add more dishes as needed

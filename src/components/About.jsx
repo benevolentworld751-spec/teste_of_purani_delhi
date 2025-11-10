@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-
+import chefImage from '/src/assets/chef-kitchen.jpg';
 const About = () => {
   return (
     <section id="about" className="py-16 bg-beige text-dark-brown">
@@ -13,7 +13,7 @@ const About = () => {
           className="md:w-1/2 flex justify-center"
         >
           <img
-            src="/src/assets/chef-kitchen.jpg" // Ensure this image path is correct
+            src={chefImage} // Ensure this image path is correct
             alt="Chef in kitchen"
             className="rounded-xl shadow-xl max-w-full h-auto object-cover"
             style={{ maxHeight: '500px' }} // Limit image height

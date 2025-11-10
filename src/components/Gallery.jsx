@@ -1,13 +1,20 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import '/src/index.css';
+import TraditionalImage from "/src/assets/traditional_dish.jpg"
+import ResturentInterImg from "/src/assets/gallery_interior1.jpg"
+import DiningAmbianceImg from "/src/assets/dining_ambiance.jpg"
+import TradiDis2img from "/src/assets/traditional_dish1.jpg"
+import RestInter2img from "/src/assets/restaurant_interior2.jpg"
+import DinAmb2img from "/src/assets/dining_ambiance2.png"
 
 const galleryImages = [
-  { src: "/src/assets/traditional_dish.jpg", alt: "Traditional Dish 1" },
-  { src: "/src/assets/gallery_interior1.jpg", alt: "Restaurant Interior 1" },
-  { src: "/src/assets/dining_ambiance.jpg", alt: "Dining Ambiance 1" },
-  { src: "/src/assets/traditional_dish1.jpg", alt: "Traditional Dish 2" },
-  { src: "/src/assets/restaurant_interior2.jpg", alt: "Restaurant Interior 2" },
-  { src: "/src/assets/dining_ambiance2.png", alt: "Dining Ambiance 2" },
+  { src: TraditionalImage, alt: "Traditional Dish 1" },
+  { src: ResturentInterImg, alt: "Restaurant Interior 1" },
+  { src: DiningAmbianceImg, alt: "Dining Ambiance 1" },
+  { src: TradiDis2img, alt: "Traditional Dish 2" },
+  { src: RestInter2img, alt: "Restaurant Interior 2" },
+  { src: DinAmb2img, alt: "Dining Ambiance 2" },
   // Add more images as needed
 ];
 
