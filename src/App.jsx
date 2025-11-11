@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -9,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-beige text-dark-brown">
+    <div className="min-h-screen bg-gray-100 text-dark-brown">
       <div id="home"> {/* Add id for scrolling to home */}
         <Navbar />
       </div>

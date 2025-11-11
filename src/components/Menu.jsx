@@ -1,11 +1,12 @@
 import React from 'react';
  import { motion } from 'framer-motion';
+ 
  import NiharImg from '/src/assets/nihari.jpeg';
  import SeekhImg from '/src/assets/seekh-kebab.jpg';
-  import MottonImg from '/src/assets/mutton-korma.jpg';
-  import ButterCimg from '/src/assets/butter-chicken.jpg';
-  import TandooriRotiImg from '/src/assets/tandoori-roti.jpg';
-  import BiryaniImg from '/src/assets/biryani.jpg';
+ import MottonImg from '/src/assets/mutton-korma.jpg';
+ import ButterCimg from '/src/assets/butter-chicken.jpg';
+ import TandooriRotiImg from '/src/assets/tandoori-roti.jpg';
+ import BiryaniImg from '/src/assets/biryani.jpg';
 
 const dishes = [
   {

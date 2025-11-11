@@ -1,20 +1,32 @@
 import { useState } from 'react';
-
+import logo from '../assets/topd logo.png'; // Assuming your fork logo is named 'topd logo.png'
+ // Assuming your text logo is named 'Taste of Purani Dilli Text.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const scrollToSection = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-    setIsOpen(false); // Close mobile menu after clicking a link
+    setIsOpen(false);  // Close mobile menu after clicking a link
   };
 
   return (
-    <nav className="fixed w-full z-50 bg-blue-50 text-beige shadow-lg">
+    <nav className="fixed w-full z-50 bg-white text-beige shadow-lg">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-2xl font-playfair font-bold cursor-pointer" onClick={() => scrollToSection('home')}>
-          Taste of Purani Delhi
-        </div>
+        <div className="flex items-center space-x-2 cursor-pointer" onClick={() => scrollToSection('home')}>
+            <img
+              src={logo}
+              alt="Benevolent Logo"
+              className="w-16 h-16 object-contain"
+            />
+           <div className="leading-tight"> 
+               <p className="text-3xl font-bold">
+                 <span className="text-red-700">Teste</span> 
+               </p> 
+                <p className="text-golden text-2xl -mt-1">of Purani Dilli</p>
+              
+           </div>
+      </div>
 
         {/* Mobile menu button */}
         <div className="md:hidden">

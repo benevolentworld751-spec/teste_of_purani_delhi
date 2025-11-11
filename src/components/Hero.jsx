@@ -16,7 +16,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="font-playfair text-4xl md:text-6xl font-bold mb-4"
         >
-          Taste of Purani Delhi
+          Taste of Purani Dilli
         </motion.h1>
 
         <motion.p
